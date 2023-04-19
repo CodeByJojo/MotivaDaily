@@ -26,7 +26,23 @@ html {
 /*******************************************/
 
 body {
+  background-color: rgb(9, 10, 31);
+  
+}
 
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+#thePic {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+#picDiv{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -44,7 +60,15 @@ footer {
 
 }
 
+#theFrame {
+  display: flex;
+  justify-content: center;
+}
 
+iframe {
+  width: 55%;
+  height: 50%;
+}
 
 
 /******************************************
